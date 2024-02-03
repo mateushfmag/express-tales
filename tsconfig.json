@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "rootDirs": [
+      "src"
+    ],
+    "outDir": "dist",
+    "lib": [
+      "es2020"
+    ],
+    "typeRoots": [
+      "node_modules/@types",
+      "src/@types"
+    ],
+    "target": "es2020",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "types": [
+      "node",
+      "jest"
+    ],
+    "skipLibCheck": true,
+  },
+  "exclude": [
+    "src/Test/*",
+    "*.config.ts"
+  ]
+}

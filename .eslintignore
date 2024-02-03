@@ -1,0 +1,11 @@
+# folders
+node_modules
+dist
+docs
+scripts
+
+# files
+*.config.js
+*.log*
+src/index.test.ts
+*.ignore/
